@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "type_dni": "1",
+    "dni": "1143382306",
+    "names": "Andres",
+    "surnames": "Guerrero",
+    "cellphone": "3112923000",
+    "email": "andy@gmail.com",
+    "created_at": "2023-03-12 01:21:51",
+    "updated_at": null
+  },
+  {
+    "id": "2",
+    "type_dni": "1",
+    "dni": "1068137000",
+    "names": "Elizabth",
+    "surnames": "Torres",
+    "cellphone": "3128985000",
+    "email": "eliza@gmail.com",
+    "created_at": "2023-03-12 01:21:51",
+    "updated_at": null
+  },
+  {
+    "id": "4",
+    "type_dni": "1",
+    "dni": "73568638",
+    "names": "Lewis",
+    "surnames": "Causado",
+    "cellphone": "3137491595",
+    "email": "lewisc@gmail.com",
+    "created_at": "2023-03-12 16:07:26",
+    "updated_at": null
+  },
+  {
+    "id": "9",
+    "type_dni": "4",
+    "dni": "145236987",
+    "names": "Alana Benjamin",
+    "surnames": "Rios",
+    "cellphone": "1265568956",
+    "email": "qizaxy@test.io",
+    "created_at": "2023-03-12 16:36:55",
+    "updated_at": null
+  }
+]

@@ -1,13 +1,197 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  padding: 0;
 }
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+}
+.left-side {
+  background-color: #304767;
+  border-radius: 2rem 0rem 0 2rem;
+  width: 25rem;
+  height: 40rem;
+}
+.titulo-left {
+  padding: 1rem 0 2rem 0;
+}
+
+.paso {
+  padding-bottom: 1.5rem;
+}
+.paso,
+.titulo-left {
+  color: white;
+}
+
+.step-position {
+  color: white;
+  font-weight: 400;
+  padding: 0 0 3rem 0;
+}
+
+.progress-bar > div {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  color: white;
+  font-weight: 500;
+  list-style-type: none;
+  font-family: "roboto";
+}
+.circle > p {
+  color: white;
+  padding-top: 0.2rem;
+  text-align: center;
+}
+
+.circle {
+  border: solid white 1px;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.left-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 1.5rem;
+  text-align: left;
+}
+
+.separation {
+  height: 3rem;
+  border-left: solid 1px white;
+  margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.form {
+  display: flex;
+  border-radius: 20rem;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 0 2rem 2rem 0;
+  padding: 0 2rem 0 2rem;
+}
+
+.container-card {
+  display: flex;
+  margin: 2rem;
+}
+
+.container {
+  padding: 0;
+  border-radius: 2rem 0rem 0 2rem;
+}
+
+.text {
+  margin: 3rem 0 0 0;
+}
+
+.input-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.mb-3,
+.input-div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mb-3:first-child {
+  
+  padding: 0 2rem 0 0;
+}
+.main-active {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-control,
+.form-select {
+  width: 17rem;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.text > p {
+  font-size: 1.1rem;
+}
+
+.buttons,.dates,.places {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.buttons{
+  width: 573px;
+}
+.label-direction{
+  margin-bottom:.2rem;
+}
+
+.direccion{
+  width: 35rem;
+}
+
+#origin_province,#origin_canton{
+  width: 17rem;
+}
+
+.direction-container{
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 0 2rem ;
+}
+
+.container-delivery{
+padding:  0 0 5rem 0;
+}
+
+
+.delivery{
+margin-bottom:  4rem;
+}
+
