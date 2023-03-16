@@ -7,6 +7,7 @@ export default function Parte1(props) {
     "Enter your personal information to get closer to companies.",
     "Get to know better by adding your diploma,certificate and education life.",
     "Help companies get to know you better by telling then about your past experiences.",
+    "Felicidades!!!! usted ha acabado satisfactoriamente la información"
   ];
   function handler(a) {
     return a ? "solid white 1px" : "solid #4e6584 1px";

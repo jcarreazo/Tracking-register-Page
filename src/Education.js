@@ -16,7 +16,7 @@ export default function Education(props) {
             id="type_transport"
             className="form-select"
             name="type_transport"
-            onChange={props.handlerChange}
+            onChange={props.handlerChangeDNI}
             value={props.Type_transport || ""}
           >
             <option value="" selected>
@@ -27,8 +27,8 @@ export default function Education(props) {
           </select>
         </div>
       </div>
-      <div class="mb-3">
-        <label for="pickup_address" class="form-label label-direction">
+      <div className="mb-3">
+        <label for="pickup_address" className="form-label label-direction">
           Direccion de Recogida
         </label>
         <input
@@ -38,11 +38,12 @@ export default function Education(props) {
           onChange={props.handlerChange}
           value={props.Pickup_address || ""}
           name="pickup_address"
+          disabled={props.Disabled ? 'disabled' : ''}
         />
       </div>
       <div className="dates">
-        <div class="mb-3">
-          <label for="pickup_datetime" class="form-label label-direction">
+        <div className="mb-3">
+          <label for="pickup_datetime" className="form-label label-direction">
             Fecha de Recogida
           </label>
           <input
@@ -52,11 +53,12 @@ export default function Education(props) {
             onChange={props.handlerChange}
             value={props.Pickup_datetime}
             name="pickup_date"
+            disabled={props.Disabled ? 'disabled' : ''}
           />
         </div>
 
-        <div class="mb-3">
-          <label for="pickup_time" class="form-label label-direction">
+        <div className="mb-3">
+          <label for="pickup_time" className="form-label label-direction">
             Hora de Recogida
           </label>
           <input
@@ -66,13 +68,14 @@ export default function Education(props) {
             onChange={props.handlerChange}
             value={props.Pickup_time || ""}
             name="pickup_time"
+            disabled={props.Disabled ? 'disabled' : ''}
           />
         </div>
       </div>
 
       <div className="places">
-        <div class="mb-3">
-          <label for="province_origin" class="form-label label-direction">
+        <div className="mb-3">
+          <label for="province_origin" className="form-label label-direction">
             Provincia - Origen
           </label>
 
@@ -81,6 +84,7 @@ export default function Education(props) {
             name="province_origin"
             className="form-select selectorInfo"
             onChange={props.handlerChange}
+            disabled={props.Disabled ? 'disabled' : ''}
           >
             <option value="" selected>
               Seleccione una provincia
@@ -92,8 +96,8 @@ export default function Education(props) {
           </select>
         </div>
 
-        <div class="mb-3">
-          <label for="canton_origin" class="form-label label-direction">
+        <div className="mb-3">
+          <label for="canton_origin" className="form-label label-direction">
             Cantón - Origen
           </label>
           <select
@@ -101,6 +105,7 @@ export default function Education(props) {
             name="canton_origin"
             className="form-select selectorInfo"
             onChange={props.handlerChange}
+            disabled={props.Disabled ? 'disabled' : ''}
           >
             <option value="" selected>
               Seleccione un Canton

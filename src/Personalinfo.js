@@ -13,7 +13,7 @@ export default function Personalinfo(props) {
           <label for="type_dni" className="form-label">
             Tipo Identificación
           </label>
-          <select value={props.Type_dni || ""} name="type_dni" className="form-select selectorInfo" onChange={props.handlerChange} onBlur={props.handlerBlurSelect}>
+          <select value={props.Type_dni || ""} name="type_dni" className="form-select selectorInfo type_doc" onChange={props.handlerBlurSelect}>
             <option value="" selected>
               Seleccione una identificación
             </option>
@@ -25,8 +25,8 @@ export default function Personalinfo(props) {
           </select>
         </div>
         <div className="input-div">
-          <div class="mb-3">
-            <label for="dni" class="form-label">
+          <div className="mb-3">
+            <label for="dni" className="form-label">
               Número de identificación
             </label>
             <input
@@ -45,8 +45,8 @@ export default function Personalinfo(props) {
 
       <div className="input-text">
  
-            <div class="mb-3">
-              <label for="name" class="form-label">
+            <div className="mb-3">
+              <label for="name" className="form-label">
                 Nombre
               </label>
               <input
@@ -61,8 +61,8 @@ export default function Personalinfo(props) {
             </div>
  
         <div className="input-div">
-          <div class="mb-3">
-            <label for="surname" class="form-label">
+          <div className="mb-3">
+            <label for="surname" className="form-label">
               Apellidos
             </label>
             <input
@@ -79,8 +79,8 @@ export default function Personalinfo(props) {
       </div>
 
       <div className="input-text">
-        <div class="mb-3">
-          <label for="cellphone" class="form-label">
+        <div className="mb-3">
+          <label for="cellphone" className="form-label">
             Numero de Celular
           </label>
           <input
@@ -95,8 +95,8 @@ export default function Personalinfo(props) {
         </div>
 
         <div className="input-div">
-        <div class="mb-3">
-          <label for="email" class="form-label">
+        <div className="mb-3">
+          <label for="email" className="form-label">
             Correo Electronico
           </label>
           <input

@@ -7,8 +7,8 @@ export default function Work(props) {
         <h2>Informacion de Envio</h2>
         <p>Inform about your package delivery.</p>
       </div>
-      <div class="direction-container">
-        <label for="pickup_address" class="form-label label-direction">
+      <div className="direction-container">
+        <label for="pickup_address" className="form-label label-direction">
           Direccion de Recogida
         </label>
         <input
@@ -43,12 +43,12 @@ export default function Work(props) {
           </select>
         </div>
 
-        <div class="mb-3">
-          <label for="canton_destination" class="form-label label-direction">
+        <div className="mb-3">
+          <label for="canton_destination" className="form-label label-direction">
             Cantón - Destination
           </label>
           <select
-            value={props.Canton_origin || ""}
+            value={props.Canton_destination || ""}
             name="canton_destination"
             className="form-select selectorInfo"
             onChange={props.handlerChange}
